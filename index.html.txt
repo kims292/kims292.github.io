@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI 마케팅 자동화 에이전시</title>
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      color: #333;
+    }
+    header {
+      background: #1e90ff;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn {
+      background: white;
+      color: #1e90ff;
+      padding: 12px 24px;
+      font-weight: bold;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #1e90ff;
+      margin-bottom: 1rem;
+    }
+    .features, .pricing {
+      display: grid;
+      gap: 20px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 12px;
+      padding: 20px;
+      background: #f9f9f9;
+    }
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>AI 마케팅 자동화</h1>
+    <p>GPT와 자동화 툴로 당신의 마케팅을 효율적으로 관리해드립니다.</p>
+    <a href="#contact" class="btn">무료 상담 신청하기</a>
+  </header>
+
+  <section>
+    <h2>우리가 제공하는 서비스</h2>
+    <div class="features">
+      <div class="card">
+        <h3>콘텐츠 자동 생성</h3>
+        <p>GPT로 블로그, 인스타, 이메일 콘텐츠를 자동으로 제작합니다.</p>
+      </div>
+      <div class="card">
+        <h3>이메일 마케팅 자동화</h3>
+        <p>Mailchimp, ActiveCampaign을 활용해 고객 맞춤 이메일을 발송합니다.</p>
+      </div>
+      <div class="card">
+        <h3>SNS 운영 자동화</h3>
+        <p>Buffer와 Zapier를 활용해 콘텐츠 예약 발행과 분석을 자동화합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>요금제</h2>
+    <div class="pricing">
+      <div class="card">
+        <h3>스타터</h3>
+        <p>₩490,000 / 월</p>
+        <ul>
+          <li>GPT 콘텐츠 생성</li>
+          <li>SNS 예약 발행</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>프로</h3>
+        <p>₩990,000 / 월</p>
+        <ul>
+          <li>GPT 콘텐츠 + 이메일 마케팅</li>
+          <li>성과 리포트 제공</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>프리미엄</h3>
+        <p>₩2,000,000 ~ / 월</p>
+        <ul>
+          <li>브랜드 맞춤 자동화</li>
+          <li>CRM 연동 및 고급 분석</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>상담 신청</h2>
+    <p>아래 링크로 문의를 남겨주시면, 24시간 내 연락드리겠습니다.</p>
+    <p><a href="https://forms.gle/your-google-form-link" class="btn">상담 폼 작성하기</a></p>
+  </section>
+
+  <footer>
+    © 2025 AI 마케팅 자동화 에이전시 | contact@example.com
+  </footer>
+
+</body>
+</html>
